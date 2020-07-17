@@ -4,4 +4,38 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  background-color: #181719;
+  font-size: 14px;
+  color: white;
+}
+
+.wrapper {
+  margin: 0 12px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.header__button {
+  font-family: Crimson Pro;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.header__menu-open {
+  color: #F2F2F2;
+}
+
+.header .nav-menu {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */

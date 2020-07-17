@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #181719;
+    font-size: 14px;
+    color: white;
+}
+
+.wrapper {
+    margin: 0 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    &__button {
+        font-family: Crimson Pro;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+
+    &__menu-open {
+        color: #F2F2F2;
+
+    }
+
+    & .nav-menu {
+        display: none;
+    }
+}

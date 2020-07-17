@@ -7,8 +7,13 @@
 
 body {
   background-color: #181719;
+  font-family: Montserrat;
   font-size: 14px;
   color: white;
+}
+
+img {
+  max-width: 100%;
 }
 
 .wrapper {
@@ -22,13 +27,19 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .header__button {
   font-family: Crimson Pro;
   font-weight: 200;
   text-transform: uppercase;
+  border: 1px solid #FFFFFF;
+  padding: 8px 9px;
 }
 
 .header__menu-open {
@@ -37,5 +48,31 @@ body {
 
 .header .nav-menu {
   display: none;
+}
+
+.lead__h2 {
+  font-family: Lora;
+  font-style: normal;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.lead__paragraph {
+  font-weight: 200;
+  max-width: 75%;
+  margin-bottom: 25px;
+}
+
+.lead__link {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.portfolio__image {
+  position: relative;
+}
+
+.portfolio__img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

@@ -6,8 +6,13 @@
 
 body {
     background-color: #181719;
+    font-family: Montserrat;
     font-size: 14px;
     color: white;
+}
+
+img {
+    max-width: 100%;
 }
 
 .wrapper {
@@ -17,12 +22,16 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
+    margin-bottom: 40px;
 
     &__button {
         font-family: Crimson Pro;
         font-weight: 200;
         text-transform: uppercase;
+        border: 1px solid #FFFFFF;
+        padding: 8px 9px;
     }
 
     &__menu-open {
@@ -32,5 +41,41 @@ body {
 
     & .nav-menu {
         display: none;
+    }
+}
+
+.lead {
+    &__h2 {
+        font-family: Lora;
+        font-style: normal;
+        font-size: 36px;
+        margin-bottom: 25px;
+    }
+
+    &__paragraph {
+        font-weight: 200;
+        max-width: 75%;
+        margin-bottom: 25px;
+    }
+
+    &__link {
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+}
+
+.portfolio {
+    &__image {
+        position: relative;
+    }
+
+    &__img {
+        max-width: 100%;
+    }
+
+    &__info-block {
+        // position: absolute;
+        // top: 0;
+        // left: 0;
     }
 }

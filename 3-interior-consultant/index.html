@@ -17,7 +17,12 @@
     <div class="wrapper">
         <header class="header">
             <span class="header__button">This interior</span>
-            <i class="header__menu-open fa fa-bars fa-2x" aria-hidden="true"></i>
+            <div class="header__menu-icon">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+            <!-- <i class="header__menu-open fa fa-bars fa-2x" aria-hidden="true"></i> -->
             <nav class="nav-menu">
                 <ul class="nav-menu__list">
                     <li class="nav-menu__item"><a href="#" class="nav-menu__link nav-menu__link--1">Home</a>
@@ -56,6 +61,23 @@
 
         <footer class="footer"><span class="footer__author-info">Mateusz Rosiak @ DevChallenges.io</span></footer>
     </div>
+
+    <script>
+        const menuIcon = document.querySelector('.header__menu-icon');
+        const menu = document.querySelector('.nav-menu');
+
+        function toggleMenuIcon() {
+            menuIcon.classList.toggle('active');
+            menu.classList.toggle('nav-menu--active')
+            // if (menu.style.display === "none") {
+            //     menu.style.display = "block";
+            // } else {
+            //     menu.style.display = "none";
+            // }
+        }
+
+        menuIcon.addEventListener('click', toggleMenuIcon);
+    </script>
 </body>
 
 </html>

@@ -15,7 +15,194 @@ html {
   padding: 0;
 }
 
+body {
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
 img {
   max-width: 100%;
+}
+
+.wrapper {
+  margin: 15px 12px;
+}
+
+.heading {
+  margin-bottom: 24px;
+}
+
+.heading__h2 {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.heading__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 22px;
+}
+
+.heading__dots-icon {
+  color: gray;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  margin-right: 12px;
+}
+
+.heading__recipe-summary {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4F4F4F;
+  -ms-flex-preferred-size: 85%;
+      flex-basis: 85%;
+  text-align: justify;
+}
+
+.recipe-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 20px;
+  margin-bottom: 22px;
+}
+
+.recipe-info__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recipe-info__icon {
+  margin-right: 5px;
+}
+
+.recipe-info__block--first {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  color: #F2994A;
+  margin-bottom: 20px;
+}
+
+.recipe-info__header {
+  color: #BDBDBD;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+
+.recipe-info__p {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.ingredients {
+  color: #333333;
+}
+
+.ingredients__h3 {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+
+.ingredients__h4 {
+  font-family: Playfair Display;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 23px;
+  margin-top: 42px;
+}
+
+.ingredients__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.ingredients__checkbox {
+  margin-right: 10px;
+  border: 1px solid #828282;
+  border-radius: 4px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.instructions {
+  color: #333333;
+}
+
+.instructions__h3 {
+  margin-bottom: 33px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Playfair Display;
+}
+
+.instructions__item {
+  margin-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.instructions__number {
+  margin-right: 15px;
+  background: #F2994A;
+  border-radius: 6px;
+  padding: 11px 16px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.instructions__text {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.instructions__source {
+  color: #BDBDBD;
+  font-style: italic;
+}
+
+.footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #A9A9A9;
+  margin-top: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */

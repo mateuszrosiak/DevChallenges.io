@@ -5,15 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Gallery - DevChallenges.io</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header class="header">
-        <img src="./img/profilePhoto.png" alt="" class="header__img">
-        <h3 class="header__profile-name"></h3>
-    </header>
+    <div class="wrapper">
+        <header class="header">
+            <img src="./img/profilePhoto.png" alt="" class="header__img">
+            <h3 class="header__profile-name">Rodney Cotton</h3>
+            <h5 class="header__profile-whereabouts">Helsinki, Finland</h5>
+        </header>
 
+        <div class="social-boxes">
+            <div class="social-boxes__item"><span class="social-boxes__count">100</span>
+                <span class="social-boxes__text">Posts</span></div>
+            <div class="social-boxes__item"><span class="social-boxes__count">2,424</span>
+                <span class="social-boxes__text">Followers</span></div>
+            <div class="social-boxes__item"><span class="social-boxes__count">1,432</span>
+                <span class="social-boxes__text">Following</span></div>
+        </div>
+
+        <main class="gallery">
+            <img src="img/photo1.png" alt="" class="gallery__img gallery__img--img-1">
+            <img src="img/photo2.png" alt="" class="gallery__img gallery__img--img-2">
+            <img src="img/photo3.png" alt="" class="gallery__img gallery__img--img-3">
+            <img src="img/photo4.png" alt="" class="gallery__img gallery__img--img-4">
+            <img src="img/photo5.png" alt="" class="gallery__img gallery__img--img-5">
+            <img src="img/photo6.png" alt="" class="gallery__img gallery__img--img-6">
+        </main>
+
+    </div>
+
+    <footer class="footer"><span class="footer__text">Mateusz Rosiak @ DevChallenges.io</span></footer>
 </body>
 
 </html>

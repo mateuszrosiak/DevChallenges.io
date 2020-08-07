@@ -11,3 +11,12 @@ Technologies / Methodologies used:
 * BEM
 * Flexbox
 * Media queries
+
+## Recipe Blog Post - [Link](https://mateuszrosiak.github.io/DevChallenges.io/5-my-gallery/)
+Time spent on the whole project (from downloading files, through coding to adding this text): 2h10m  
+Technologies / Methodologies used:
+* SCSS
+* BEM
+* Flexbox
+* Grid
+* Media queries

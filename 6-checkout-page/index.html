@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout Page - DevChallenges.io</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
@@ -21,19 +23,19 @@
                         <span class="checkout__subtitle">Vintage Backbag</span>
                         <span class="checkout__price">$54.99</span><span class="checkout__price--old">$94.99</span>
                         <div class="items-amount">
-                            <i class="items-amount__minus"></i>
+                            <i class="items-amount__minus">-</i>
                             <span class="items-amount__number">1</span>
                             <i class="items-amount__plus"></i>
                         </div>
                     </div>
                 </div>
                 <div class="checkout__block">
-                    <img src="img/photo1.png" alt="" class="checkout__img">
+                    <img src="img/photo2.png" alt="" class="checkout__img">
                     <div class="checkout__body">
                         <span class="checkout__subtitle">Levi Shoes</span>
                         <span class="checkout__price">$74.99</span><span class="checkout__price--old">$124.99</span>
                         <div class="items-amount">
-                            <i class="items-amount__minus"></i>
+                            <i class="items-amount__minus">-</i>
                             <span class="items-amount__number">1</span>
                             <i class="items-amount__plus"></i>
                         </div>
@@ -50,8 +52,92 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="left-col">
+            <form class="form">
+                <h4 class="form__heading">Contact information</h4>
+                <div class="form__container">
+                    <label for="email" class="form__label">E-mail</label>
+                    <div class="input-container">
+                        <input type="text" id="email" class="form__input" placeholder="Enter your email..." required>
+                        <i class="material-icons form__icon">email</i>
+                    </div>
+                </div>
 
+                <div class="form__container">
+                    <label for="phone" class="form__label">Phone</label>
+                    <div class="input-container">
+                        <input type="tel" id="phone" class="form__input" placeholder="Enter your phone..." required>
+                        <i class="material-icons form__icon">phone</i>
+
+                    </div>
+                </div>
+            </form>
+
+            <form class="form">Shipping address</h4>
+                <div class="form__container">
+                    <label for="name" class="form__label">Full name</label>
+                    <div class="input-container">
+                        <input type="text" id="name" class="form__input" placeholder="Rodney Cotton" required>
+                        <i class="material-icons form__icon">person_pin</i>
+                    </div>
+                </div>
+
+                <div class="form__container">
+                    <label for="address" class="form__label">Address</label>
+                    <div class="input-container">
+                        <input type="address" id="address" class="form__input" placeholder="Your address..." required>
+                        <i class="material-icons form__icon">home</i>
+                    </div>
+                </div>
+
+                <div class="form__container">
+                    <label for="city" class="form__label">City</label>
+                    <div class="input-container">
+                        <input type="city" id="address" class="form__input" placeholder="Your city..." required>
+                        <i class="material-icons form__icon">location_city</i>
+                    </div>
+                </div>
+
+                <div class="form__container">
+                    <label for="address" class="form__label">Address</label>
+                    <div class="input-container">
+                        <input type="address" id="address" class="form__input" placeholder="Your address..." required>
+                        <i class="material-icons form__icon">home</i>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form__container form__container--margin">
+                        <label for="address" class="form__label">Address</label>
+                        <div class="input-container">
+                            <select class="form__input form__input--small">
+                                <option value="0">Your country:</option>
+                                <option value="1">Poland</option>
+                                <option value="2">Germany</option>
+                                <option value="3">Finland</option>
+                            </select>
+                            <i class="material-icons form__icon">home</i>
+                        </div>
+                    </div>
+
+                    <div class="form__container">
+                        <label for="postal-code" class="form__label">Postal code</label>
+                        <div class="input-container">
+                            <input type="address" id="postal-code" class="form__input form__input--small"
+                                placeholder="Your postal code..." required>
+                            <i class="material-icons form__icon">inbox</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fb">
+                    <input type="checkbox" class="checkbox"><span class="checkbox__title">Save this information for next
+                        time</span>
+                </div>
+
+                <button class="button">Continue</button>
+
+            </form>
         </div>
 
     </div>

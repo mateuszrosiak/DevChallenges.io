@@ -222,57 +222,50 @@ img {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
   }
-}
-
-.ingredients-block {
-  margin-top: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.recipe-info {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-  -ms-flex-preferred-size: 25%;
-      flex-basis: 25%;
-  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.32);
-          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.32);
-  border-radius: 12px;
-  margin-left: auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  min-height: 350px;
-  padding: 50px 45px;
-}
-
-.recipe-info__block--first {
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  margin-bottom: 0;
-}
-
-.ingredients {
-  -ms-flex-preferred-size: 66%;
-      flex-basis: 66%;
-}
-
-.ingredients__desc {
-  font-size: 16px;
-  line-height: 150%;
-}
-
-.instructions {
-  margin-top: 20px;
-}
-
-.instructions__text {
-  -ms-flex-preferred-size: 60%;
-      flex-basis: 60%;
+  .ingredients-block {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .recipe-info {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.32);
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.32);
+    border-radius: 12px;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    min-height: 350px;
+    padding: 50px 45px;
+  }
+  .recipe-info__block--first {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    margin-bottom: 0;
+  }
+  .ingredients {
+    -ms-flex-preferred-size: 66%;
+        flex-basis: 66%;
+  }
+  .ingredients__desc {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .instructions {
+    margin-top: 20px;
+  }
+  .instructions__text {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
